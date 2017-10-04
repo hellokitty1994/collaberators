@@ -1,0 +1,11 @@
+<h2> View users </h2>
+
+{{#each Account}}
+		<hr>
+		<div class='panel body'>
+			<li>Username: {{Username}}</li>
+			<li>Email: {{Email}} (soon to be private, replaced by nodemailer button) </li>
+		<li><a href= '/profiles'> View Profile </a></li>
+	</div>
+
+{{/each}}
